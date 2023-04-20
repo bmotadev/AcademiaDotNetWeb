@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body bgcolor="yellow" text="blue">
+    <header>
+      <h1>Cabeçalho <time datetime="2001-05-15 19:00">May 15</time></h1>
+      <h2></h2>
+      <h3></h3>
+      <h4></h4>
+      <h5></h5>
+      <h6></h6>
+      <!-- navegação -->
+      <!-- nav>ul>li*2>a -->
+      <nav>
+        <ul>
+          <li>Item 1 do Menu</li>
+          <li><a href="">Item 2 do Menu</a></li>
+          <li></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+    <section>
+      <article class="post">
+        <h3>Titulo do meu post</h3>
+        <h5>Postado por <b>Bruno</b></h5>
+      </article>
+      <p align="left">
+        Atos - UFN - Abril 2023 Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit. Voluptatem maiores obcaecati dicta quaerat nostrum
+        architecto adipisci consectetur a corporis.
+      </p>
+
+      <img src="boiboi.png" alt="boi" width="200px" height="" />
+      <!-- ~ : volta para a raiz -->
+      <img src="~/img/boiboi.png" alt="boiboi" />
+      <!-- .. : volta diretorio -->
+      <a href="#"><img src="../img/boiboi.png" alt="mumu" /></a>
+
+      <font face="Courier" size="5" color="red">
+        <p>
+          Repudiandae saepe quia magni eius aliquam recusandae laboriosam, unde
+          aut magnam! <i>Quisquam</i> repudiandae reiciendis praesentium nobis
+          optio a porro dolor voluptate distinctio <u>dignissimos</u> corrupti,
+          maxime explicabo consequuntur nihil sequi quo eius
+          <sup>necessitatibus</sup> possimus consectetur! Iste
+          <s>consequuntur</s> aut quia nam <sub>reiciendis</sub> ipsa?
+        </p>
+      </font>
+
+      <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+      </ul>
+
+      <ol>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+      </ol>
+
+      <dl>
+        <dt>Item 1</dt>
+        <dd>Definição do item 1</dd>
+      </dl>
+
+      <!-- dl>(dt+dd)*3 -->
+      <dl>
+        <dd></dd>
+        <dt></dt>
+        <dd></dd>
+        <dt></dt>
+        <dd></dd>
+        <dt></dt>
+      </dl>
+
+      <!-- table>(tr>td*3)*2 -->
+      <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+      </table>
+    </section>
+
+    <footer>
+      <p>rodape</p>
+    </footer>
+  </body>
+</html>
