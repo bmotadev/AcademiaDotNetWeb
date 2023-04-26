@@ -1,0 +1,66 @@
+body {
+    background-color: antiquewhite;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50% 50%;
+    background-size: 50%;
+}
+
+#container {
+    background-color: bisque;
+}
+
+#h1principal {
+    background-color: aquamarine;
+    text-transform: lowercase;
+}
+
+.classe1 {
+    color: blue;
+}
+
+#teste {
+    color: red;
+    text-decoration: line-through;
+}
+
+a {
+    color: aqua;
+}
+
+a:link {
+    color: brown;
+}
+
+a:visited {
+    color: yellowgreen;
+}
+
+#divnova1 {
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    background: orange;
+}
+
+#div1 {
+    float: left;
+    width: 33%;
+    border: 1px solid black;
+    background: orange;
+}
+
+#div2 {
+    float: left;
+    width: 33%;
+    border: 1px solid black;
+    background: rgb(255, 0, 204);
+}
+
+#div3 {
+    float: left;
+    width: 33%;
+    border: 1px solid black;
+    background: rgb(255, 132, 0);
+}
