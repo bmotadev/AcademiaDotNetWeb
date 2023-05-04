@@ -1,0 +1,12 @@
+body {
+    background-color: lightblue;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50% 50%;
+    background-size: 50%;
+}
+
+.galeria-truck {
+    width: 400px;
+}
