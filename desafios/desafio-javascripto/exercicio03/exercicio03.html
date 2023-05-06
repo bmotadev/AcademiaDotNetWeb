@@ -1,2 +1,33 @@
 <!-- 3 - Crie uma página com uma lista (select - RadioButton) com 4 opções de cores. Ao selecionar uma opção de cor,
 altere o plano de fundo da página para a cor específica -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 03</title>
+</head>
+<body>
+    <form>
+        <label>
+            <input type="radio" name="cor" id="red" onclick="mudarCor('red')">
+            Vermelho
+        </label>
+        <label>
+            <input type="radio" name="cor" id="green" onclick="mudarCor('green')">
+            Verde
+        </label>
+        <label>
+            <input type="radio" name="cor" id="blue" onclick="mudarCor('blue')">
+            Azul
+        </label>
+        <label>
+            <input type="radio" name="cor" id="yellow" onclick="mudarCor('yellow')">
+            Amarelo
+        </label>
+    </form>
+    <script src="exercicio03.js"></script>
+</body>
+</html>
